@@ -52,4 +52,41 @@ export const specificSurveyServices: ServiceListItem[] = [
     description: "Presenciales y/o virtuales con metodología científica",
     highlight: true,
   },
+  {
+    title: "Recolección en campo",
+    description:
+      "Información, ubicación y tabulación en tiempo real mediante encuestadores capacitados",
+    highlight: false,
+  },
+  {
+    title: "Estudios cuantitativos completos",
+    description:
+      "Cualitativos, de satisfacción, posicionamiento, percepción, estudios e inteligencia de mercados",
+    highlight: false,
+  },
+  {
+    title: "Recolección con robots",
+    description:
+      "Plataformas de mensajería instantánea con información de ubicación y tabulación en tiempo real",
+    highlight: false,
+  },
 ];
+
+/**
+ * Talleres de Vocería
+ */
+export const voceríaWorkshops = {
+  title: "Talleres de Vocería",
+  description:
+    "Está diseñado para altos ejecutivos, empresarios, directivos del sector público y privado, líderes políticos y sociales, conferencistas o profesionales de todas las áreas que quieran desenvolverse exitosamente en entrevistas ante los medios de comunicación, así como en presentaciones, conferencias y discursos.",
+  targetAudience: [
+    "Altos ejecutivos",
+    "Empresarios",
+    "Directivos del sector público y privado",
+    "Líderes políticos y sociales",
+    "Conferencistas",
+    "Profesionales que requieran habilidades de comunicación",
+  ],
+  objective:
+    "Desarrollar habilidades de comunicación efectiva para entrevistas, presentaciones, conferencias y discursos ante medios y audiencias diversas.",
+};
