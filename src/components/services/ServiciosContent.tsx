@@ -7,6 +7,8 @@ import { businessAreas } from "@/data/business-areas";
 import { servicesByCategory } from "@/data/services";
 import BusinessAreaCard from "@/components/services/BusinessAreaCard";
 import ServiceListItem from "@/components/services/ServiceListItem";
+import MeasurementMethods from "@/components/services/MeasurementMethods";
+import VoceriaWorkshop from "@/components/services/VoceriaWorkshop";
 
 export default function ServiciosContent() {
   const searchParams = useSearchParams();
@@ -229,6 +231,12 @@ export default function ServiciosContent() {
           </motion.div>
         </div>
       </section>
+
+      {/* Métodos de Medición */}
+      <MeasurementMethods />
+
+      {/* Talleres de Vocería */}
+      <VoceriaWorkshop />
 
       {/* CTA Final */}
       <section className="section-padding bg-gradient-hero">
