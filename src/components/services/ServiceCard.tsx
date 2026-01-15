@@ -49,7 +49,7 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
         </CardHeader>
         <CardContent>
           <Link
-            href={`/servicios/${service.slug}`}
+            href="/servicios"
             className="text-tyse-turquoise font-medium hover:underline inline-flex items-center gap-1 group-hover:gap-2 transition-all"
           >
             Conocer más
